@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Ques11</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><h1>TO THE NEW</h1></li>
+            <ul>
+                <li>Home</li>
+                <li>Quick Help</li>
+            </ul>
+        </ul>
+    </nav>
+    <div>
+        <h1>Bug Report</h1>
+        <form action="#">
+            <section>
+                <label for="title" class="con2">Title:*</label>
+                <input type="text" name="title" class="con1">
+
+                <label for="desc" class="con2">Description:*</label>
+                <textarea name="desc" rows="6" class="con1"></textarea>
+
+                <label for="os" class="con2">Operating System:*</label>
+                <select name="os">
+                    <option value="xp">Windows XP</option>
+                    <option value="vista">Windows Vista</option>
+                    <option value="win10">Windows 10</option>
+                    <option value="linux">Linux</option>
+                    <option value="mac">MacOS</option>
+                </select>
+
+                <label for="product" class="con2">Product:*</label>
+                <select name="product">
+                    <option value="volvo">Formoid</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+
+                <label for="version" class="con2">Version:*</label>
+                <input type="text" class="ver" name="version">
+
+                <label id="license">License:*</label>
+                <span class="span_radio">
+                    <input type="radio" name="license" id="free">
+                    <label for="free">Free</label>
+                </span>
+                <span class="span_radio">
+                    <input type="radio" name="license" id="business">
+                    <label for="business">Business</label>
+                </span>
+
+                <label for="severity" class="con2">Severity:*</label>
+                <select name="severity">
+                    <option value="critical">Critical</option>
+                    <option value="minor">Minor</option>
+                    <option value="major">Major</option>
+                    <option value="moderate">Moderate</option>
+                </select>
+
+                <label for="attachments" class="con2">Attachments:*</label>
+                <input type="file" name="attachments">
+            </section>
+
+            <span class="span_btn">
+                <button type="submit">Send</button>
+            </span>
+       </form>
+    </div>
+</body>
+</html> 
